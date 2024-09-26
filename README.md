@@ -1,11 +1,10 @@
 # DDOS_Attack_Sequence.md
-  '''mermaid
+  ```mermaid
 sequenceDiagram
   participant Attacker
   participant BotNet
   participant WebServer
   participant Firewall
   
-'''
-
+```
 
