@@ -1,7 +1,7 @@
 # DDOS_Attack_Sequence.md
 ```mermaid
 sequenceDiagram
-    participant Attacker as "Attacker\n(Hacker man doing the DDoS attack)"
+    participant Attacker as "Attacker(Hacker man doing the DDoS attack)"
     participant BotNet as "BotNet\n(The compromised computers sending malicious traffic)"
     participant WebServer as "WebServer\n(The Companies website)"
     participant Firewall as "Firewall\n(The network defence system trying to filter our the malicious traffic)"
