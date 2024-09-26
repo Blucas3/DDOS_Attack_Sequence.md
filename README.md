@@ -3,5 +3,8 @@
 sequenceDiagram
   Attacker->>BotNet: Hey bots attack this company's website
   BotNet-->Attacker: Sure thing hacker man!
+
+  BotNet->>WebServer: Starts flooding the server with bots
+  WebServer: AHHHHHHHHHH
 ```
 
