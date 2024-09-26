@@ -1,4 +1,5 @@
 # DDOS_Attack_Sequence.md
+```mermaid
 sequenceDiagram
     participant Attacker as "Attacker\n(Individual/group orchestrating the DDoS attack)"
     participant BotNet as "BotNet\n(Network of compromised devices sending malicious traffic)"
@@ -12,3 +13,4 @@ sequenceDiagram
     Firewall-->>WebServer: Filters out malicious requests
     Firewall->>WebServer: Blocks IP addresses identified as malicious
     WebServer->>WebServer: Attempts to process remaining legitimate requests (overwhelmed)
+ ```
