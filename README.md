@@ -14,3 +14,5 @@ sequenceDiagram
     # Firewall->>WebServer: Blocks IP addresses sending the traffic
     WebServer->>Firewall: Thanks homie 
  ```
+
+The Attacker picked out the company they wanted to hit and requested to hit the webserver. The bots went after the webserver and were met with the webserver's firewall. The firewall proceeded to analyze the traffic, determine it was not good, and stop it from continuing. Also blocks the IP address so the webserver can't get attacked by the same IP address. 
