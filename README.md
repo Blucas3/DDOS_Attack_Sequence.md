@@ -2,9 +2,9 @@
 ```mermaid
 sequenceDiagram
     participant Attacker as "Attacker(Hacker man doing the DDoS attack)"
-    participant BotNet as "BotNet\n(The compromised computers sending malicious traffic)"
-    participant WebServer as "WebServer\n(The Companies website)"
-    participant Firewall as "Firewall\n(The network defence system trying to filter our the malicious traffic)"
+    participant BotNet as "BotNet(The compromised computers sending malicious traffic)"
+    participant WebServer as "WebServer(The Companies website)"
+    participant Firewall as "Firewall(The network defence system trying to filter our the malicious traffic)"
 
     Attacker->>BotNet: Sends command to initiate DDoS attack
     BotNet->>WebServer: Floods with malicious bots
